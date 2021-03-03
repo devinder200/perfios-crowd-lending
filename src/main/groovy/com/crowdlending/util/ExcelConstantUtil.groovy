@@ -1,0 +1,33 @@
+package com.crowdlending.util
+
+public class ExcelConstantUtil {
+
+    public static final String BORROWER_ID = "Borrower_Id"
+    public static final String APPLICANT_NAME = "Applicant_Name"
+    public static final String FATHER_FULL_NAME = "Father_Full_Name"
+    public static final String GENDER = "Gender"
+    public static final String DATE_OF_BIRTH = "Date_Of_Birth"
+    public static final String MARITAL_STATUS = "Marital_Status"
+    public static final String SPOUSE_NAME = "Spouse_Name"
+    public static final String EMAIL_ADDRESS = "Email_Address"
+    public static final String MOBILE_NUMBER = "Mobile_Number"
+    public static final String ALTERNATE_NUMBER = "Alternate_Number"
+    public static final String BORROWER_PROFILE_TEXT_VARIABLE_1 = "Borrower_Profile_Text_Variable_1"
+    public static final String BORROWER_PROFILE_TEXT_VARIABLE_2 = "Borrower_Profile_Text_Variable_2"
+    public static final String BORROWER_PROFILE_TEXT_VARIABLE_3 = "Borrower_Profile_Text_Variable_3"
+    public static final String BORROWER_PROFILE_TEXT_VARIABLE_4 = "Borrower_Profile_Text_Variable_4"
+    public static final String IDENTITY_NUMBER_ONE = "Identity_Number_One"
+    public static final String IDENTITY_NUMBER_TWO = "Identity_Number_Two"
+    public static final String IDENTITY_NUMBER_THREE = "Identity_Number_Three"
+    public static final String IDENTITY_NUMBER_Four = "Identity_Number_Four"
+    public static final String CURRENT_ADDRESS = "Current_Address"
+    public static final String CURRENT_ADDRESS_CITY = "Current_Address_City"
+    public static final String CURRENT_ADDRESS_STATE = "Current_Address_State"
+    public static final String CURRENT_ADDRESS_COUNTRY = "Current_Address_Country"
+    public static final String CURRENT_ADDRESS_PIN = "Current_Address_Pin"
+    public static final String IFSC_CODE = "IFSC_Code"
+    public static final String BANK_ACCOUNT_NO = "Bank_Account_No"
+    public static final String BANK_ACCOUNT_TYPE = "Bank_Account_Type"
+    public static final String NAME_AS_IN_BANK_ACCOUNT = "Name_As_In_Bank_Account"
+    public static final String NAME_OF_BANK = "Name_Of_Bank"
+}

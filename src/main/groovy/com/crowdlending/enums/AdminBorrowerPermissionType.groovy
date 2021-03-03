@@ -1,0 +1,32 @@
+package com.crowdlending.enums
+
+enum AdminBorrowerPermissionType {
+    ADMIN_BORROWER_DETAIL_TAB,
+    ADMIN_BORROWER_LOGIN_ACTIVITY_TAB,
+    ADMIN_BORROWER_TRANSACTIONS_TAB,
+    ADMIN_BORROWER_PREVIOUS_LOAN_TAB,
+    ADMIN_BORROWER_AUDIT_LOGS_TAB,
+    ADMIN_BORROWER_STATEMENT_OF_ACCOUNT_TAB,
+    ADMIN_BORROWER_BASIC_DETAIL,
+    ADMIN_BORROWER_LOGIN_ACTIVITY,
+    ADMIN_BORROWER_TRANSACTIONS,
+    ADMIN_BORROWER_PREVIOUS_LOAN,
+    ADMIN_BORROWER_AUDIT_LOGS,
+    ADMIN_BORROWER_STATEMENT_OF_ACCOUNT,
+    ADMIN_BORROWER_DETAIL,
+    ALLOW_BORROWER_AGENTS,
+    ENABLE_EDUCATION_DETAILS_FOR_BORROWER,
+    ASK_BANK_DETAIL_BORROWER_ONBOARDING,
+    ENABLE_FIXED_DEPOSIT,
+    SHOW_BORROWER_CHECKLIST_TO_ADMIN
+
+
+    public static AdminBorrowerPermissionType isValid(String value) {
+        return ((value in values()*.toString()) ? (valueOf(value)) : null)
+
+    }
+    public static List<AdminBorrowerPermissionType> validPermissions() {
+        return this.values()
+    }
+
+}
